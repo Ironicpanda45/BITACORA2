@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Bitácora de Clases</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de la Bitácora">
+        <h2>Bitácora</h2>
+    </header>
+
+    <nav class="rainbow-box">
+        <div class="parcial">
+            <h2>Parcial 1</h2>
+            <div class="temas">
+                <a href="#html">HTML</a>
+                <a href="#texto-html">Texto en HTML</a>
+                <a href="#imagenes-html">Imágenes en HTML</a>
+                <a href="#enlaces-html">Enlaces en HTML</a>
+                <a href="#css">CSS</a>
+                <a href="#proceso-diseno">Proceso de Diseño</a>
+            </div>
+        </div>
+        <div class="parcial">
+            <h2>Parcial 2</h2>
+            <div class="temas">
+                <a href="#Position">Position</a>
+                <a href="#Display">Display</a>
+                <a href="#Animacion">Animacion</a>
+                <a href="#Nuevas-propiedades">Nuevas propiedades de CSS3</a>
+                <a href="#Referencias-avanzadas">Referencias avanzadas</a>
+                <a href="#Carrera-universitaria">Carrera universitaria</a>
+            </div>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+
+    <section id="html" class="titulo">
+        <h1>HTML</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>HTML crea páginas web.</li>
+                <li>HTML significa HyperText Markup Language.</li>
+                <li>HTML5 incluye audio y video.</li>
+                <li>Los atributos cambian el comportamiento de las etiquetas.</li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>La estructura básica es <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>,
+                    <code>&lt;body&gt;</code>.
+                </li>
+                <li>Etiquetas comunes son <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>, <code>&lt;p&gt;</code>,
+                    <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>,
+                    <code>&lt;img&gt;</code>.
+                </li>
+                <li>Usar <code>&lt;img&gt;</code> con el atributo <code>src</code> para imágenes.</li>
+                <li>Crear enlaces con <code>&lt;a&gt;</code> y usar <code>href</code>.</li>
+                <li>Comentarios en HTML: <code>&lt;!-- comentario --&gt;</code>.</li>
+            </ul>
+            <img src="html.gif" alt="Ejemplo de HTML">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>HTML es clave para hacer sitios web. Organiza la información con etiquetas. Con HTML5, hay nuevas funciones
+            que mejoran los sitios.</p>
+    </footer>
+
+    <section id="texto-html" class="titulo">
+        <h1>Texto en HTML</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>Organiza el texto en párrafos, encabezados y listas.</li>
+                <li>Usar <code>&lt;strong&gt;</code> y <code>&lt;em&gt;</code> para resaltar texto.</li>
+                <li>Mejora la comprensión con texto resaltado.</li>
+                <li>Listas bien estructuradas ayudan a navegar.</li>
+                <li>Elige listas ordenadas o desordenadas según el caso.</li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>Usar <code>&lt;p&gt;</code> para párrafos y <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> para
+                    encabezados.</li>
+                <li><code>&lt;strong&gt;</code> y <code>&lt;em&gt;</code> resaltan texto.</li>
+                <li>Crear listas ordenadas (<code>&lt;ol&gt;</code>) y desordenadas (<code>&lt;ul&gt;</code>).</li>
+                <li>Crear enlaces a otras partes del documento con anclas.</li>
+                <li>Anclas con <code>&lt;a href="#ancla"&gt;Texto del enlace&lt;/a&gt;</code>.</li>
+            </ul>
+            <img src="1_Sg3-Nd9RC38uxn55cf6S_Q.gif" alt="Ejemplo de Texto en HTML">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>Usar encabezados, párrafos y listas es clave para la legibilidad. Seguir buenas prácticas con elementos
+            especiales y anclas mejora la experiencia del usuario.</p>
+    </footer>
+
+    <section id="imagenes-html" class="titulo">
+        <h1>Imágenes en HTML</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>Optimiza imágenes para tiempos de carga más rápidos.</li>
+                <li>Usar formatos adecuados (jpg, png, gif).</li>
+                <li>Imágenes relevantes mejoran el contenido.</li>
+                <li>Usar <code>alt</code> para accesibilidad.</li>
+                <li>Elegir formato adecuado (JPEG o PNG) según el uso.</li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>Insertar imágenes con <code>&lt;img&gt;</code>.</li>
+                <li>Forma básica: <code>&lt;img src="ruta-de-la-imagen" alt="Descripción"&gt;</code>.</li>
+                <li>El atributo <code>src</code> indica la ubicación de la imagen.</li>
+                <li>El atributo <code>alt</code> es para accesibilidad y se muestra si no carga la imagen.</li>
+                <li>Usar <code>width</code> y <code>height</code> para ajustar el tamaño.</li>
+            </ul>
+            <img src="MAPLE-TRIBU-IMAGEN.webp" alt="Ejemplo de Imágenes en HTML">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>Las imágenes mejoran el contenido visual. Usar correctamente <code>&lt;img&gt;</code> con <code>src</code> y
+            <code>alt</code> ayuda en accesibilidad y optimización. Elegir tamaño y formato adecuados es clave para
+            cargar rápido.
+        </p>
+    </footer>
+
+    <section id="enlaces-html" class="titulo">
+        <h1>Enlaces en HTML</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>Crear enlaces internos con anclas.</li>
+                <li>Los enlaces deben ser descriptivos.</li>
+                <li><code>target="_blank"</code> abre el enlace en nueva pestaña.</li>
+                <li>Los enlaces deben ser fáciles de identificar.</li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>Los enlaces permiten navegar entre páginas o secciones.</li>
+                <li>Crear hipervínculos con <code>&lt;a&gt;</code>.</li>
+                <li>Forma básica de un enlace: <code>&lt;a href="url"&gt;Texto&lt;/a&gt;</code>.</li>
+                <li>Para enlazar a una sección: <code>&lt;a href="#ancla"&gt;</code>.</li>
+                <li>El atributo <code>target</code> define cómo abrirá el enlace.</li>
+                <li>El texto del enlace debe ser claro para el usuario.</li>
+            </ul>
+            <img src="CTA_boton_hover_grande.webp" alt="Ejemplo de Enlaces en HTML">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>Los enlaces son esenciales para la navegación web. Usar etiquetas claras y atributos adecuados mejora la
+            experiencia del usuario. Asegúrate de que los enlaces sean fáciles de identificar.</p>
+    </footer>
+
+    <section id="css" class="titulo">
+        <h1>CSS</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>CSS da estilo a las páginas HTML.</li>
+                <li>Usa selectores para aplicar estilos a elementos.</li>
+                <li>Las hojas de estilo pueden ser externas o internas.</li>
+                <li>Con CSS puedes cambiar colores, fuentes y layout.</li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>Forma básica de CSS: <code>selector { propiedad: valor; }</code>.</li>
+                <li>Usar <code>color</code>, <code>background-color</code>, <code>font-size</code>.</li>
+                <li>Usar clases (<code>.</code>) y ID (<code>#</code>) para seleccionar elementos.</li>
+                <li>Las hojas de estilo pueden estar en la misma página o ser archivos separados.</li>
+                <li>Incluir CSS en HTML: <code>&lt;link rel="stylesheet" href="estilos.css"&gt;</code>.</li>
+            </ul>
+            <img src="vw-resize.gif" alt="Ejemplo de CSS">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>CSS es clave para mejorar la apariencia de las páginas. Selecciona elementos correctamente y aplica estilos
+            para hacer el sitio atractivo y fácil de usar.</p>
+    </footer>
+
+    <section id="proceso-diseno" class="titulo">
+        <h1>Proceso de Diseño</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>El proceso de diseño web incluye investigar, planear y desarrollar.</li>
+                <li>Hacer wireframes es importante para ver cómo se verá el diseño.</li>
+                <li>El diseño debe centrarse en el usuario y ser fácil de usar.</li>
+                <li>Prototipar ayuda a recibir comentarios antes de terminar el desarrollo.</li>
+                <li>Es clave hacer pruebas y ajustes para que el producto funcione bien.</li>
+                <li>Documentar lo que se hace es útil para futuras mejoras.</li>
+            </ul>
+        </section>
+
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>Primero, se identifican las necesidades y los objetivos del sitio.</li>
+                <li>Investigar ayuda a conocer al público que usará el sitio.</li>
+                <li>Fase de Análisis del Proyecto:
+                    <ul>
+                        <li>¿Para qué se necesita el sitio web?</li>
+                        <li>¿Qué buscarán los usuarios aquí?</li>
+                        <li>¿Qué servicios interactivos se agregarán? (como formularios de contacto)</li>
+                        <li>¿Qué imagen queremos dar a los usuarios?</li>
+                        <li>¿Qué impacto tendrá el sitio en ellos?</li>
+                    </ul>
+                </li>
+                <li>Información del Usuario:
+                    <ul>
+                        <li>Es importante saber su nivel socioeconómico, sexo, edad y ocupación.</li>
+                        <li>También hay que considerar sus hábitos de consumo y motivaciones.</li>
+                    </ul>
+                </li>
+                <li>Benchmarking:
+                    <ul>
+                        <li>Analizar 5 páginas similares para ver sus objetivos y qué tan efectivas son.</li>
+                        <li>Revisar si son fáciles de navegar y si el contenido está bien organizado.</li>
+                    </ul>
+                </li>
+                <li>Modelado del Usuario:
+                    <ul>
+                        <li>Crear "personas" y escenarios para entender mejor a los usuarios.</li>
+                    </ul>
+                </li>
+                <li>Diseño Conceptual:
+                    <ul>
+                        <li>Hacer bocetos o sketches para planificar visualmente el diseño.</li>
+                    </ul>
+                </li>
+                <li>Diseño Visual:
+                    <ul>
+                        <li>Crear maquetas que muestren cómo se verá el sitio final.</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="giphy.gif" alt="Ejemplo del Proceso de Diseño">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>El proceso de diseño web es muy importante y debe enfocarse en lo que necesitan los usuarios y los objetivos
+            del proyecto. Desde investigar al principio hasta implementar al final, cada paso cuenta para hacer un sitio
+            accesible y efectivo. La retroalimentación y las pruebas son esenciales para el éxito del diseño web.</p>
+    </footer>
+
+    <section id="Position" class="titulo">
+        <h1>Position</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>static es el valor por defecto.</li>
+                <li>z-index controla la superposición de elementos.</li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>position: static; no afecta la ubicación del elemento.</li>
+                <li>position: relative; permite mover el elemento usando top, right, bottom, left sin alterar el flujo
+                    del documento.</li>
+                <li>position: absolute; saca al elemento del flujo normal, posicionado respecto a su contenedor
+                    posicionado.</li>
+                <li>position: fixed; fija el elemento en un lugar de la ventana.</li>
+            </ul>
+            <img src="fixed.gif" alt="Ejemplo de Position">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>Las diferentes opciones de position en CSS permiten controlar cómo y dónde se coloca un elemento en la
+            página, afectando su comportamiento y relación con otros elementos.</p>
+    </footer>
+
+    <section id="Display" class="titulo">
+        <h1>Display</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+
+                <li>Block hace que un elemento ocupe todo el ancho disponible.</li>
+                <li>None puede utilizarse con un script para ocultar o mostrar al interactuar con algun elemento</li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>Block hace que el elemento empiece en una nueva línea.</li>
+                <li>Inline coloca los elementos uno al lado del otro sin forzar nuevas líneas.</li>
+                <li>Inline-block combina características de block e inline, permitiendo que los elementos se alineen en
+                    una línea sin ocupar todo el ancho.</li>
+                <li>Display none oculta un elemento pero sigue existiendo.</li>
+            </ul>
+            <img src="u9tCV-zRt3qpgSyNQt53e-eRz0-HIrsqqOk-.gif" alt="Ejemplo de Display">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>El valor de display es fundamental para controlar cómo se presentan los elementos en una página web,
+            permitiendo diseñar dependiendo de las necesidades de cada caso.</p>
+    </footer>
+
+    <section id="Animacion" class="titulo">
+        <h1>Animación</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>Las animaciones se definen con keyframes.</li>
+                <li>Las propiedades que se pueden animar incluyen color, posición, y tamaño.</li>
+                <li>Las transiciones permiten cambios suaves en las propiedades de los elementos.</li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>Usar <code>@keyframes</code> para definir las animaciones en CSS.</li>
+                <li>Definir el estado inicial y final de la animación dentro de los keyframes.</li>
+                <li>Las transiciones pueden activarse cuando un elemento cambia de estado, por ejemplo, al pasar el
+                    ratón por encima.</li>
+                <li>Controlar la duración, retraso y el tipo de interpolación con propiedades como
+                    <code>transition</code> y <code>animation</code>.</li>
+                <li>
+                    <strong>animation-timing-function</strong>: Controla la velocidad de la animación a lo largo de su
+                    duración. Puede tomar valores como:
+                    <ul>
+                        <li>linear: velocidad constante.</li>
+                        <li>ease: comienza despacio, se acelera y termina despacio.</li>
+                        <li>ease-in: comienza despacio y acelera.</li>
+                        <li>ease-out: comienza rápido y desacelera.</li>
+                        <li>ease-in-out: comienza y termina despacio, acelerando en el medio.</li>
+                        <li>cubic-bezier(): permite personalizar la curva de aceleración.</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="preview.gif" alt="Ejemplo de Animacion en CSS3">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>Las animaciones en CSS permiten agregar interactividad y dinamismo a las páginas web. Definiendo keyframes y
+            usando transiciones, se pueden crear efectos visuales atractivos sin necesidad de JavaScript.</p>
+    </footer>
+
+    <section id="Nuevas-propiedades" class="titulo">
+        <h1>Nuevas Propiedades de CSS3</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>Asegúrar de que el redondeo no afecte la legibilidad de los textos.</li>
+                <li>Se recomienda optimizar las fuentes y usar solo las necesarias.</li>
+                <li>Las sombras y las transiciones mejoran la apariencia visual.</li>
+                <li>Media queries permiten adaptar el diseño a diferentes dispositivos.</li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>box-shadow: añade sombras a elementos de bloque, permitiendo especificar desplazamiento, difuminado,
+                    expansión y color.</li>
+                <li>text-shadow: aplica sombras a texto, lo que permite crear efectos de profundidad.</li>
+                <li>border-radius: redondea las esquinas de los elementos, permitiendo crear elementos más suaves.</li>
+                <li>@font-face: permite a los desarrolladores usar fuentes personalizadas en sus sitios web, mejorando
+                    la tipografía.</li>
+            </ul>
+            <img src="2018-03-24-20-23-27.gif" alt="Ejemplo de Nuevas Propiedades en CSS3">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>Las nuevas propiedades de CSS3 y su impacto en el diseño web. Se destacó la importancia de asegurar que el uso de redondeos en elementos no afecte la legibilidad del texto.</p>
+    </footer>
+
+    <section id="Referencias-avanzadas" class="titulo">
+        <h1>Referencias Avanzadas</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>Se pueden combinar varias referencias</li>
+                <li>No todos los selectores avanzados son compatibles con todas las versiones de navegadores.</li>
+                <li>Algunos selectores avanzados, si se usan en grandes cantidades, pueden impactar negativamente el
+                    rendimiento.</li>
+                <li>A medida que los selectores se vuelven más avanzados, pueden volverse difíciles de entender.</li>
+            </ul>
+        </section>
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>[atributo~="valor"]: Selecciona los elementos cuyo atributo contiene la palabra específica.</li>
+                <li>[atributo^="valor"]: Selecciona los elementos cuyo atributo empieza con un valor.</li>
+                <li>[atributo$="valor"]: Selecciona los elementos cuyo atributo termina en el valor especificado.</li>
+                <li>*[atributo="valor"]**: Selecciona los elementos cuyo atributo contiene el valor en cualquier parte.
+                </li>
+                <li>:nth-child(n): Selecciona el n-ésimo hijo de su padre.</li>
+                <li>:nth-of-type(n): Selecciona el n-ésimo hijo del mismo tipo (etiqueta).</li>
+                <li>:first-child / :last-child: Selecciona el primer o último hijo de un contenedor.</li>
+                <li>Selector hijo (>): Selecciona solo los elementos hijos directos.</li>
+            </ul>
+            <img src="image.gif" alt="Ejemplo de Referencias Avanzadas">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>Se presentaron ejemplos de selectores avanzados como los selectores de atributos, que permiten seleccionar elementos basados en el contenido de sus atributos.</p>
+    </footer>
+
+    <section id="Carrera-universitaria" class="titulo">
+        <h1>Carrera Universitaria <i class="em em-checkered_flag" aria-role="presentation" aria-label="CHEQUERED FLAG"></i> </h1>
+        <footer>
+            <img src="Multimedia (1).png" alt="">
+            <img src="Multimedia.png" alt="">
+            <img src="Multimedia (2).png" alt="">
+            <img src="Multimedia (3).png" alt="">
+        </footer>
+
+</body>
+
+</html>
